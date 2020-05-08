@@ -93,7 +93,7 @@ var CRLF = '\r\n';
     console.log(makeMsg(v.what, 'JS Exception: ' + e.stack));
     return;
   }
-
+  
   assert.deepEqual(result,
                    v.expected,
                    makeMsg(v.what,
