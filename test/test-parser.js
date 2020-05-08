@@ -38,6 +38,30 @@ var CR = '\r', LF = '\n', CRLF = CR + LF;
               ],
     what: 'Continuation with text code'
   },
+  { source: ['A1 NO [ALERT] Please log in via your web browser: https://support.google.com/mail/accounts/answer/78754 (Failure)', CRLF],
+    expected: [ { 
+                type: 'no',
+                tagnum: 1,
+                textCode: 'ALERT',
+                text: 'Please log in via your web browser: https://support.google.com/mail/accounts/answer/78754 (Failure)'
+              }
+            ],
+    what: 'Continuation with text code'
+  },
+  
+  { source: ['* NO [WEBALERT https://someurl.com/continue?sarp=1&scc=1] Web login required.', CRLF],
+    expected: [ { 
+                  type: 'no',
+                  num: undefined,
+                  textCode: {
+                    key: 'WEBALERT',
+                    val: 'https://someurl.com/continue?sarp=1&scc=1'
+                  },
+                  text: 'Web login required.'
+                }
+              ],
+    what: 'Handling of Webalert'
+  },
   { source: ['+', CRLF],
     expected: [ { textCode: undefined,
                   text: undefined
