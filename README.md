@@ -1,7 +1,7 @@
 Note
 ====
 
-This a fork that aims to bring the package up-to-date and incorporate Pull Requests from the original repo. (See the list of applied Pull requets below )
+This a fork of [Node-Imap](https://github.com/mscdex/node-imap) that aims to bring the package up-to-date and incorporate all the Pull Requests from the original repo. (See the list of applied Pull requets below).
 
 
 
@@ -29,7 +29,7 @@ Requirements
 Installation
 ============
 
-    npm install imap
+    npm install node-imap
 
 Examples
 ========
@@ -37,7 +37,7 @@ Examples
 * Fetch the 'date', 'from', 'to', 'subject' message headers and the message structure of the first 3 messages in the Inbox:
 
 ```javascript
-var Imap = require('imap'),
+var Imap = require('node-imap'),
     inspect = require('util').inspect;
 
 var imap = new Imap({
