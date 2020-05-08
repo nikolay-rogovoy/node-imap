@@ -1,3 +1,10 @@
+Note
+====
+
+This a fork that aims to bring the package up-to-date and incorporate Pull Requests from the original repo. (See the list of applied Pull requets below )
+
+
+
 Description
 ===========
 
@@ -743,6 +750,22 @@ Extensions Supported
         * Additional Connection instance methods (seqno-based counterpart exists):
 
           * **thread**(< _string_ >algorithm, < _array_ >searchCriteria, < _function_ >callback) - _(void)_ - Performs a regular search with `searchCriteria` and groups the resulting search results using the given `algorithm` (e.g. 'references', 'orderedsubject'). `callback` has 2 parameters: < _Error_ >err, < _array_ >UIDs. `UIDs` is a nested array.
+
+Applied Pull Requests
+=====================
+
+- [#738](https://github.com/mscdex/node-imap/pull/738) Decode params
+- [#725](https://github.com/mscdex/node-imap/pull/725) Connection: Set TLS servername default to host
+- [#721](https://github.com/mscdex/node-imap/pull/721) added displayfrom and displayto search criteria
+- [#700](https://github.com/mscdex/node-imap/pull/700) Close connection is TLS error occur
+- [#648](https://github.com/mscdex/node-imap/pull/648) Connection: add leading zero to single digit date
+- [#641](https://github.com/mscdex/node-imap/pull/641) Convert the body to uppercase before parsing
+- [#613](https://github.com/mscdex/node-imap/pull/613) Fix regular expression for RE_PRECEDING
+- [#586](https://github.com/mscdex/node-imap/pull/586) Add utf7 decoding for Gmail labels
+- [#472](https://github.com/mscdex/node-imap/pull/472) Connection.js: socket needs to be set up in the case of tls
+- [#466](https://github.com/mscdex/node-imap/pull/466) Adding CRAM-MD5 server authentication
+- [#439](https://github.com/mscdex/node-imap/pull/439) Remove useless mail event with entire that counts entire box as new after openBox
+
 
 
 
