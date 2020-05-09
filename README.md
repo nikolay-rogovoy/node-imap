@@ -1,3 +1,7 @@
+
+![node-imap CI](https://github.com/mikebevz/node-imap/workflows/node-imap%20CI/badge.svg?branch=master&event=push)
+
+
 Note
 ====
 
