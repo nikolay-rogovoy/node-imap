@@ -1,7 +1,7 @@
 Note
 ====
 
-This a fork of [Node-Imap](https://github.com/mscdex/node-imap) that aims to bring the package up-to-date and incorporate all the Pull Requests from the original repo. (See the list of applied Pull requets below).
+This a fork of [Node-IMAP](https://github.com/mscdex/node-imap) that aims to bring the package up-to-date and incorporate all the Pull Requests from the original repo. (See the list of applied Pull requets below).
 
 
 

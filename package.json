@@ -2,10 +2,12 @@
   "name": "node-imap",
   "version": "0.9.3",
   "author": "Brian White <mscdex@mscdex.net>",
-  "contributors": [{
-    "email": "michael.bevz@gmail.com",
-    "name": "Michael Bevz"
-  }],
+  "contributors": [
+    {
+      "email": "michael.bevz@gmail.com",
+      "name": "Michael Bevz"
+    }
+  ],
   "description": "A fork of the famous and outdated IMAP module for node.js that makes communicating with IMAP servers easy",
   "main": "./lib/Connection",
   "license": "MIT",
