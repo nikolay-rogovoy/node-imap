@@ -1,6 +1,6 @@
 {
   "name": "node-imap",
-  "version": "0.9.3",
+  "version": "0.9.6",
   "author": "Brian White <mscdex@mscdex.net>",
   "contributors": [
     {
@@ -37,5 +37,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mikebevz/node-imap"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0"
   }
 }
