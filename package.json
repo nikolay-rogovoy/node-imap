@@ -1,6 +1,6 @@
 {
   "name": "node-imap-dbnr",
-  "version": "0.9.7",
+  "version": "0.9.8",
   "author": "dbnr",
   "description": "Fork dbnr",
   "main": "./lib/Connection",
